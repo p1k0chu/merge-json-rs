@@ -1,6 +1,13 @@
 # Merging two jsons together
 Small rust library just to merge two jsons
 
+# Installation
+Add it as dependency in your crate's `Cargo.toml` file
+```toml
+[dependencies]
+merge_json = { git = "https://github.com/p1k0chu/merge-json-rs.git" }
+```
+
 # Example
 ```rust
 use serde_json::json;
