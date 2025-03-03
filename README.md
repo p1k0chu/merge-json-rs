@@ -7,6 +7,10 @@ Add it as dependency in your crate's `Cargo.toml` file
 [dependencies]
 merge_json = { git = "https://github.com/p1k0chu/merge-json-rs.git" }
 ```
+After this, you can view docs:
+```
+cargo doc -p merge_json --open
+```
 
 # Example
 ```rust
